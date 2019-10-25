@@ -2,7 +2,7 @@
 fuction writeCards(array,specialDay){
   newArray = []
   for (let i = 0, i < array.length, i++){
-    newArray = `Thank you, ${array[i]}, for the wonderful ${specialDay} gift!`
+    newArray.push(`Thank you, ${array[i]}, for the wonderful ${specialDay} gift!`)
   }
 
   return newArray
