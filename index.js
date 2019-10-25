@@ -5,5 +5,5 @@ fuction writeCards(array,specialDay){
     newArray = `Thank you, ${array[i]}, for the wonderful ${specialDay} gift!`
   }
 
-  newArray
+  return newArray
 }
